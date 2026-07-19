@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     font-size: 16px;
     position: fixed;
@@ -286,4 +291,12 @@ footer .contact-logo {
     margin: 5px;
     text-align: center;
     vertical-align: middle;
+}
+
+.copyright-footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+    color: lightgrey;
+    text-transform: uppercase;
 }
